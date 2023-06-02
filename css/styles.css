@@ -1,0 +1,97 @@
+/*
+*
+*
+*/
+body{
+    font-family: 'Montserrat', 'Arial';
+    line-height: 1.75;
+}
+
+
+.container-main{
+     display: flex;
+    width: 1200px;
+    margin: auto;
+    background-color:  #91969f;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container-body{
+    width: 1000px;
+}
+
+/*content main*/
+
+.main-content{
+    margin: 40px;
+}
+
+.name{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding: 40px 0;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.p-main-description{
+padding: 20px 60px;
+font-size: 16px;
+letter-spacing: 1px;
+word-spacing: 2px;
+}
+
+.two-blocks{
+    display: flex;
+    gap: 40px;
+}
+
+.age-work{
+flex-grow: 1;
+}
+
+.descriptio-work{
+    width: 300px;
+}
+
+.task-work{
+    flex-grow: 1;
+}
+
+
+/*aside */
+.aside-right{
+    background-color:  #202a3b;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacto-info{
+    color: rgb(177, 177, 177);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* .container-references{
+    margin-left: 20px;
+} */
+
+.aside-nat{
+    margin-left: 40px;
+}
+
+.education{
+    flex-grow: 1;
+}
+
+.title-work1{
+    background-color: rgb(53, 53, 53);
+}
+
+.container-title{
+    background-color: rgb(53, 53, 53);
+}
